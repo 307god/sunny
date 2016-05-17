@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="conststructs.devMode" value="true"/>
+    <package name="action.LoginAction" extends="struts-default" namespace="/">
+        <default-action-ref name="login"/>
+        <action name="login" class="action.LoginAction" method="login">
+            <result>/WEB-INF/content/login.jsp</result>
+        </action>
+        <action name="check-login" class="action.LoginAction" method="checkLogin">
+            <result name="error" type="chain">login</result>
+            <result name="STUDENT" type="redirectAction">
+                <param name="namespace">/student</param>
+                <param name="actionName">index</param>
+                <!-- 这里有坑，直接写成/student/index跳转不对 -->
+            </result>
+            <result name="TEACHER" type="redirectAction">
+                <param name="namespace">/teacher</param>
+                <param name="actionName">index</param>
+            </result>
+            <result name="MANAGER" type="redirectAction">
+                <param name="namespace">/admin</param>
+                <param name="actionName">index</param>
+            </result>
+        </action>
+    </package>
+    <package name="action.ManagerAction" extends="struts-default" namespace="/admin">
+        <action name="index" class="action.ManagerAction" method="index">
+            <result>/WEB-INF/content/admin/index.jsp</result>
+        </action>
+        <action name="term" class="action.ManagerAction" method="term">
+            <result>/WEB-INF/content/admin/term.jsp</result>
+        </action>
+        <action name="update-term" class="action.ManagerAction" method="updateTerm">
+            <result type="redirectAction">term</result>
+            <result name="error" type="chain">term</result>
+        </action>
+        <action name="student" class="action.ManagerAction" method="student">
+            <result>/WEB-INF/content/admin/student.jsp</result>
+        </action>
+        <action name="update-student" class="action.ManagerAction" method="updateStudent">
+            <result type="redirectAction">student</result>
+            <result name="error" type="chain">student</result>
+        </action>
+        <action name="teacher" class="action.ManagerAction" method="teacher">
+            <result>/WEB-INF/content/admin/teacher.jsp</result>
+        </action>
+        <action name="update-teacher" class="action.ManagerAction" method="updateTeacher">
+            <result type="redirectAction">teacher</result>
+            <result name="error" type="chain">teacher</result>
+        </action>
+        <action name="manager" class="action.ManagerAction" method="manager">
+            <result>/WEB-INF/content/admin/manager.jsp</result>
+        </action>
+        <action name="update-manager" class="action.ManagerAction" method="updateManager">
+            <result type="redirectAction">manager</result>
+            <result name="error" type="chain">manager</result>
+        </action>
+        <action name="course" class="action.ManagerAction" method="course">
+            <result>/WEB-INF/content/admin/course.jsp</result>
+        </action>
+        <action name="update-course" class="action.ManagerAction" method="updateCourse">
+            <result type="redirectAction">course</result>
+            <result name="error" type="chain">course</result>
+        </action>
+        <action name="open-course" class="action.ManagerAction" method="openCourse">
+            <result>/WEB-INF/content/admin/open-course.jsp</result>
+        </action>
+        <action name="update-open-course" class="action.ManagerAction" method="updateOpenCourse">
+            <result type="redirectAction">open-course</result>
+            <result name="error" type="chain">open-course</result>
+        </action>
+        <action name="select-course" class="action.ManagerAction" method="selectCourse">
+            <result>/WEB-INF/content/admin/select-course.jsp</result>
+        </action>
+        <action name="update-select-course" class="action.ManagerAction" method="updateSelectCourse">
+            <result type="redirectAction">select-course</result>
+            <result name="error" type="chain">select-course</result>
+        </action>
+    </package>
+    <package name="action.StudentAction" extends="struts-default" namespace="/student">
+        <action name="index" class="action.StudentAction" method="index">
+            <result>/WEB-INF/content/student/index.jsp</result>
+        </action>
+        <action name="timetable" class="action.StudentAction" method="timetable">
+            <result>/WEB-INF/content/student/timetable.jsp</result>
+        </action>
+        <action name="score" class="action.StudentAction" method="score">
+            <result>/WEB-INF/content/student/score.jsp</result>
+        </action>
+        <action name="course" class="action.StudentAction" method="course">
+            <result>/WEB-INF/content/student/course.jsp</result>
+        </action>
+        <action name="update-course" class="action.StudentAction" method="updateCourse">
+            <result type="redirectAction">course</result>
+            <result name="error" type="chain">course</result>
+        </action>
+    </package>
+    <package name="action.TeacherAction" extends="struts-default" namespace="/teacher">
+        <action name="index" class="action.TeacherAction" method="index">
+            <result>/WEB-INF/content/teacher/index.jsp</result>
+        </action>
+        <action name="timetable" class="action.TeacherAction" method="timetable">
+            <result>/WEB-INF/content/teacher/timetable.jsp</result>
+        </action>
+        <action name="list" class="action.TeacherAction" method="list">
+            <result>/WEB-INF/content/teacher/list.jsp</result>
+        </action>
+        <action name="score" class="action.TeacherAction" method="score">
+            <result>/WEB-INF/content/teacher/score.jsp</result>
+        </action>
+        <action name="update-score" class="action.TeacherAction" method="updateScore">
+            <result type="chain">score</result>
+        </action>
+    </package>
+</struts>
