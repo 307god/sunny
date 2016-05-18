@@ -1,37 +1,62 @@
+<!DOCTYPE html>
 <%@ page import="entity.Student" %>
 <%@ page import="java.text.SimpleDateFormat" %>
 <%@ page import="information.Information" %>
 <%@ page import="entity.SelectCourse" %>
 <%@ page import="java.util.List" %>
 <%@ page import="entity.OpenCourse" %>
-<%@ page import="java.util.HashMap" %><%--
-  Created by IntelliJ IDEA.
-  User: Jason Song(wolfogre.com)
-  Date: 2016/4/13
-  Time: 22:47
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.util.HashMap" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-	<meta charset="utf-8">
+<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	
+    学生页面
 
-	<!-- BootStrap CSS -->
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/BootStrap/css/bootstrap.min.css"/>
-	<!--DataTables CSS -->
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/DataTables/css/jquery.dataTables.css"/>
-	<!-- jQuery -->
-	<script type="text/javascript" charset="utf8" src="${pageContext.request.contextPath}/DataTables/js/jquery.js"></script>
-	<!-- DataTables -->
-	<script type="text/javascript" charset="utf8" src="${pageContext.request.contextPath}/DataTables/js/jquery.dataTables.js"></script>
+</title>
+    
 
-	<title>学生页面</title>
-</head>
-<script type="text/javascript" class="init">
+    <link href="http://cj.shu.edu.cn/Content/default/jquery-treeview-css/jquery.treeview.css"
+        rel="stylesheet" type="text/css" />
+   
+    <link href="http://cj.shu.edu.cn/Content/default/jquery-ui-1.9.1.custom-css/jquery-ui-1.9.1.custom.css"
+        rel="stylesheet" type="text/css" />
+    <link href="http://cj.shu.edu.cn/Content/default/StyleBase.css" rel="stylesheet"
+        type="text/css" />
+    
+    
+    <script src="http://cj.shu.edu.cn/Scripts/datePicker/WdatePicker.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/jquery-1.8.2.js" type="text/javascript"></script>
+
+    
+    
+
+    <script src="http://cj.shu.edu.cn/Scripts/jquery-ui-1.9.1.custom.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/jsCommon.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/leftmenu.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/jquery.form.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/jquery-treeview-js/jquery.treeview.js" type="text/javascript"></script>
+
+    <style type="text/css">
+    @media print
+    {
+        .noprint
+        {
+            display: none;
+        }
+        .PageNext
+        {
+            page-break-after: always;
+        }
+    }
+    </style>
+	
+	<script type="text/javascript" class="init">
 	$(document).ready(function() {
-		$('#dataTable1').DataTable({
+		$('#dataTable').DataTable({
 			language: {
 				"sProcessing": "处理中...",
 				"sLengthMenu": "显示 _MENU_ 项结果",
@@ -55,44 +80,16 @@
 					"sSortAscending": ": 以升序排列此列",
 					"sSortDescending": ": 以降序排列此列"
 				}
-			},
-			paging: false,//禁用分页
-			searching: false,//禁用搜索
-			ordering:  false,//禁用排序
-			info: false//禁用最下角信息
-		});
-		$('#dataTable2').DataTable({
-			language: {
-				"sProcessing": "处理中...",
-				"sLengthMenu": "显示 _MENU_ 项结果",
-				"sZeroRecords": "没有匹配结果",
-				"sInfo": "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
-				"sInfoEmpty": "显示第 0 至 0 项结果，共 0 项",
-				"sInfoFiltered": "(由 _MAX_ 项结果过滤)",
-				"sInfoPostFix": "",
-				"sSearch": "搜索:",
-				"sUrl": "",
-				"sEmptyTable": "表中数据为空",
-				"sLoadingRecords": "载入中...",
-				"sInfoThousands": ",",
-				"oPaginate": {
-					"sFirst": "首页",
-					"sPrevious": "上页",
-					"sNext": "下页",
-					"sLast": "末页"
-				},
-				"oAria": {
-					"sSortAscending": ": 以升序排列此列",
-					"sSortDescending": ": 以降序排列此列"
-				}
-			},
-			paging: false,//禁用分页
-			searching: false,//禁用搜索
-			ordering:  false,//禁用排序
-			info: false//禁用最下角信息
+			}
 		});
 	});
 </script>
+
+    
+</head>
+
+
+
 <body>
 <%
 	Student master = (Student)session.getAttribute("master");
@@ -101,21 +98,79 @@
 		return;
 	}
 %>
-<div class="page-header" >
-	<div>
-		<h2>&nbsp;&nbsp;&nbsp;&nbsp;学生:<%=master.getS_name()%>
-			<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学号:<%=master.getS_id()%></small>
-			<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%=Information.getCopyRight()%></small>
-		</h2>
-	</div>
+    <div>
+        <div class="master_banner noprint">
+            
+            <div class="master_banner_validspace">
+                <a id="aindex" class="a_index">首 页</a> 
+                <span class="span_currenttitle">
+                    
+
+                </span>
+                <span class="span_currentUserInfo">
+                    欢迎 <%=master.getS_name()%>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<a href="${pageContext.request.contextPath}/login.action">安全退出</a>
+                </span>
+            </div>
+        </div>
+        <div class="master_bannerborder noprint">
+        </div>
+        <div class="master_maindiv">
+            <table class="master_maintable">
+                <tr>
+                    <td class="maintable_leftmenu noprint" id="">
+                        <div id="leftmenu_information" style="width:200px;">
+                            
+                        </div>
+                        <!--  LEFT MENU  -->
+                        <div id="leftMenu">
+                            
+                            
+
+<div id="leftmenu_Accordion">
+
+
+
+    <div class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" id="0">
+        <a href="#">学生信息</a>
+    </div>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" style="padding: 1px 0px 0px 2px;">
+        <div style="line-height: 23px;">
+            学号：<%=master.getS_id()%>
+        </div>
+        <div style="line-height: 23px;">
+            姓名：<%=master.getS_name()%>
+        </div>
+        
+    </div>
+
+    <div class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" id="98">
+        <a href="#">常用功能</a>
+    </div>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active">
+        <ul class="ul_left_menu_basicset">
+            
+            
+                <li role="presentation"><a href="index.action">基本信息</a></li>
+            
+                <li role="presentation"><a href="timetable.action">课表查询</a></li>
+				
+				<li role="presentation"><a href="score.action">成绩查询</a></li>
+				
+				<li role="presentation"><a href="course.action">选课退课</a></li>
+            
+
+        </ul>
+    </div>
+
 </div>
-<ul class="nav nav-tabs">
-	<li role="presentation"><a href="index.action">基本信息</a></li>
-	<li role="presentation" class="active"><a href="timetable.action">课表查询</a></li>
-	<li role="presentation"><a href="score.action">成绩查询</a></li>
-	<li role="presentation"><a href="course.action">选课退课</a></li>
-	<li role="presentation"><a href="${pageContext.request.contextPath}/login.action">退出登录</a></li>
-</ul>
+                        </div>
+                    </td>
+                    <td class="maintable_content">
+                        <!--  MAIN  -->
+                        
+                        <div class="div_master_content">
+                            
+
 <table id="dataTable1" class="display" cellspacing="0" width="100%">
 	<thead>
 	<tr>
@@ -191,5 +246,13 @@
 	%>
 	</tbody>
 </table>
+
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 </html>

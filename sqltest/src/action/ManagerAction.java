@@ -150,7 +150,8 @@ public class ManagerAction extends ActionSupport {
     }
 
     public String teacher() throws Exception {
-        List<Teacher> teacherList = session.createSQLQuery("SELECT * FROM T").addEntity(Teacher.class).list();
+        List<Teacher> teacherList = session.createSQLQuery("{call test()}").addEntity(Teacher.class).list();
+        //List<Teacher> teacherList = session.createSQLQuery("SELECT * FROM T").addEntity(Teacher.class).list();
         ActionContext actionContext = ActionContext.getContext();
         actionContext.put("teacherList",teacherList);
         return SUCCESS;

@@ -2,104 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6d0eb0-5661-4f08-be00-b92f58696450" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/lib/mysql-connector-java-5.1.38-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/images/Sorting icons.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/images/sort_asc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/images/sort_asc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/images/sort_both.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/images/sort_desc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/images/sort_desc_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/sqltest_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_4_2_2_4_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Struts_2_2_3_20_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_38_bin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/sqltest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/action/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/action/ManagerAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/action/StudentAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/action/TeacherAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/entity/Administrator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/entity/Course.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/entity/OpenCourse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/entity/SelectCourse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/entity/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/entity/Teacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/entity/Term.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/information/Information.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/src/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/BootStrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.bootstrap4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.bootstrap4.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.jqueryui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.jqueryui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.material.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.material.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.semanticui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.semanticui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.uikit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/dataTables.uikit.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/jquery.dataTables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/jquery.dataTables.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/css/jquery.dataTables_themeroller.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.bootstrap4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.bootstrap4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.foundation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.jqueryui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.jqueryui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.material.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.material.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.semanticui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.semanticui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.uikit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/dataTables.uikit.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/jquery.dataTables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/DataTables/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/Admin/course.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/Admin/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/Admin/manager.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/Admin/open-course.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/Admin/select-course.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/Admin/student.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/Admin/teacher.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/Admin/term.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/course.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/score.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/timetable.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/score.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/timetable.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sunny.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/course1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/index1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/manager1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/open-course1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/select-course1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/student1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/term1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/login1.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/out/action/ManagerAction.class" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/out/action/ManagerAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/src/action/ManagerAction.java" afterPath="$PROJECT_DIR$/sqltest/src/action/ManagerAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/src/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/sqltest/src/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/course.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/course.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/index.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/manager.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/manager.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/open-course.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/open-course.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/select-course.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/select-course.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/student.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/student.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/term.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/term.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/login.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/course.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/course.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/index.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/score.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/score.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/timetable.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/timetable.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/index.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/list.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/score.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/score.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/timetable.jsp" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/timetable.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqltest/web/WEB-INF/out/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/sqltest/web/WEB-INF/out/hibernate.cfg.xml" />
     </list>
     <ignored path="sunny.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,53 +56,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sqltest/src/struts.xml">
+      <file leaf-file-name="TeacherAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqltest/src/action/TeacherAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManagerAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sqltest/src/action/ManagerAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4575">
-              <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="114" column="65" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1463314879925" expanded="true" signature="4189:4204" placeholder="SELECT * FRO... S" />
-                <marker date="1463314879925" expanded="true" signature="5988:6003" placeholder="SELECT * FRO... T" />
-                <marker date="1463314879925" expanded="true" signature="7793:7807" placeholder="SELECT * FRO... M" />
-                <marker date="1463314879925" expanded="true" signature="7793:7808" placeholder="SELECT * FRO... A" />
-                <marker date="1463314879925" expanded="true" signature="9614:9629" placeholder="SELECT * FRO... C" />
-                <marker date="1463314879925" expanded="true" signature="11434:11449" placeholder="SELECT * FRO... O" />
-                <marker date="1463314879925" expanded="true" signature="13665:13681" placeholder="SELECT * FRO... SO" />
+                <element signature="imports" expanded="false" />
+                <marker date="1463563083470" expanded="true" signature="1552:1699" placeholder="SELECT * FRO... O" />
+                <marker date="1463563083470" expanded="true" signature="1622:1698" placeholder="SELECT o_id O" />
+                <marker date="1463563083470" expanded="true" signature="2897:2981" placeholder="SELECT * FRO... S" />
+                <marker date="1463563083470" expanded="true" signature="2930:2968" placeholder="SELECT SO.s_... SO" />
+                <marker date="1463563083470" expanded="true" signature="3724:3755" placeholder="SELECT * FRO... SO" />
+                <marker date="1463563083470" expanded="true" signature="5510:5579" placeholder="SELECT * FRO... SO" />
+                <marker date="1463563083470" expanded="true" signature="6193:6262" placeholder="SELECT * FRO... SO" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/manager.jsp">
+      <file leaf-file-name="StudentAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqltest/src/action/StudentAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="128" column="12" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="4550">
+              <caret line="194" column="35" selection-start-line="194" selection-start-column="35" selection-end-line="194" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Administrator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sqltest/src/entity/Administrator.java">
+      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqltest/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,13 +100,36 @@
       <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqltest/src/action/LoginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2300">
-              <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
+            <state relative-caret-position="202">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sqltest/src/action/ManagerAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
+                <marker date="1463560933335" expanded="true" signature="4189:4204" placeholder="SELECT * FRO... S" />
+                <marker date="1463560933335" expanded="true" signature="6099:6114" placeholder="SELECT * FRO... T" />
+                <marker date="1463560933335" expanded="true" signature="7904:7919" placeholder="SELECT * FRO... A" />
+                <marker date="1463560933335" expanded="true" signature="9725:9740" placeholder="SELECT * FRO... C" />
+                <marker date="1463560933335" expanded="true" signature="11545:11560" placeholder="SELECT * FRO... O" />
+                <marker date="1463560933335" expanded="true" signature="13776:13792" placeholder="SELECT * FRO... SO" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacher.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,10 +143,17 @@
         <option value="hibernate-configuration-4.0" />
         <option value="hibernate-main-4.0" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="sunnylinner" />
+        <option value="sunnylinnner" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -222,7 +176,6 @@
         <option value="$PROJECT_DIR$/sqltest/src/information.java" />
         <option value="$PROJECT_DIR$/sqltest/src/information/Information.java" />
         <option value="$PROJECT_DIR$/sqltest/src/action/StudentAction.java" />
-        <option value="$PROJECT_DIR$/sqltest/src/action/TeacherAction.java" />
         <option value="$PROJECT_DIR$/sqltest/src/entity/OpenCourse.java" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/manager/course.jsp" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/manager/index.jsp" />
@@ -233,18 +186,24 @@
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/manager/teacher.jsp" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/manager/term.jsp" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/course.jsp" />
-        <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/index.jsp" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/score.jsp" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/timetable.jsp" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/index.jsp" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/list.jsp" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/score.jsp" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/timetable.jsp" />
-        <option value="$PROJECT_DIR$/sqltest/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/sqltest/src/entity/SelectCourse.java" />
         <option value="$PROJECT_DIR$/sqltest/src/struts.xml" />
-        <option value="$PROJECT_DIR$/sqltest/src/action/ManagerAction.java" />
         <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/manager.jsp" />
+        <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/login1.jsp" />
+        <option value="$PROJECT_DIR$/sqltest/web/login1.jsp" />
+        <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/login.jsp" />
+        <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/index.jsp" />
+        <option value="$PROJECT_DIR$/sqltest/src/action/ManagerAction.java" />
+        <option value="$PROJECT_DIR$/sqltest/src/action/TeacherAction.java" />
+        <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/open-course.jsp" />
+        <option value="$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher.jsp" />
+        <option value="$PROJECT_DIR$/sqltest/src/hibernate.cfg.xml" />
       </list>
     </option>
   </component>
@@ -268,9 +227,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="923" />
-    <option name="width" value="1007" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -297,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,32 +265,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sunny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sunny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sunny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sunny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sqltest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -346,8 +282,27 @@
     <property name="project.structure.side.proportion" value="0.18" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="64" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="70" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="69" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="714" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="64" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="70" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="69" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="714" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\git\sunny\sqltest\web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\git\sunny\sqltest\web\WEB-INF" />
       <recent name="G:\git\sunny\sqltest\web" />
@@ -922,47 +877,83 @@
       <option name="presentableId" value="Default" />
       <updated>1463298582292</updated>
       <workItem from="1463298589864" duration="12059000" />
-      <workItem from="1463449291925" duration="993000" />
+      <workItem from="1463449291925" duration="2313000" />
+      <workItem from="1463530665700" duration="2805000" />
+      <workItem from="1463545426557" duration="4864000" />
+      <workItem from="1463557285166" duration="6556000" />
+      <workItem from="1463564693635" duration="2829000" />
+      <workItem from="1463567673151" duration="3004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13052000" />
+    <option name="totallyTimeSpent" value="34430000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="923" y="0" width="1007" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.312026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16257995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31509846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3220697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -975,6 +966,9 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -984,6 +978,81 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sqltest/src/action/StudentAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4550">
+          <caret line="194" column="35" selection-start-line="194" selection-start-column="35" selection-end-line="194" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/src/action/ManagerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1463560933335" expanded="true" signature="4189:4204" placeholder="SELECT * FRO... S" />
+            <marker date="1463560933335" expanded="true" signature="6099:6114" placeholder="SELECT * FRO... T" />
+            <marker date="1463560933335" expanded="true" signature="7904:7919" placeholder="SELECT * FRO... A" />
+            <marker date="1463560933335" expanded="true" signature="9725:9740" placeholder="SELECT * FRO... C" />
+            <marker date="1463560933335" expanded="true" signature="11545:11560" placeholder="SELECT * FRO... O" />
+            <marker date="1463560933335" expanded="true" signature="13776:13792" placeholder="SELECT * FRO... SO" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5400">
+          <caret line="216" column="13" selection-start-line="216" selection-start-column="13" selection-end-line="216" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2900">
+          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/src/action/TeacherAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1463563083470" expanded="true" signature="1552:1699" placeholder="SELECT * FRO... O" />
+            <marker date="1463563083470" expanded="true" signature="1622:1698" placeholder="SELECT o_id O" />
+            <marker date="1463563083470" expanded="true" signature="2897:2981" placeholder="SELECT * FRO... S" />
+            <marker date="1463563083470" expanded="true" signature="2930:2968" placeholder="SELECT SO.s_... SO" />
+            <marker date="1463563083470" expanded="true" signature="3724:3755" placeholder="SELECT * FRO... SO" />
+            <marker date="1463563083470" expanded="true" signature="5510:5579" placeholder="SELECT * FRO... SO" />
+            <marker date="1463563083470" expanded="true" signature="6193:6262" placeholder="SELECT * FRO... SO" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/login1.jsp" />
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sqltest/src/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -996,16 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4575">
           <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1463314879925" expanded="true" signature="4189:4204" placeholder="SELECT * FRO... S" />
-            <marker date="1463314879925" expanded="true" signature="5988:6003" placeholder="SELECT * FRO... T" />
-            <marker date="1463314879925" expanded="true" signature="7793:7807" placeholder="SELECT * FRO... M" />
-            <marker date="1463314879925" expanded="true" signature="7793:7808" placeholder="SELECT * FRO... A" />
-            <marker date="1463314879925" expanded="true" signature="9614:9629" placeholder="SELECT * FRO... C" />
-            <marker date="1463314879925" expanded="true" signature="11434:11449" placeholder="SELECT * FRO... O" />
-            <marker date="1463314879925" expanded="true" signature="13665:13681" placeholder="SELECT * FRO... SO" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,9 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,11 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2300">
           <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,13 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/src/action/TeacherAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="49" column="146" selection-start-line="49" selection-start-column="146" selection-end-line="49" selection-end-column="146" />
         </state>
       </provider>
     </entry>
@@ -1071,10 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3250">
           <caret line="138" column="19" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1463309541807" expanded="true" signature="891:948" placeholder="select * fro... D" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,24 +1126,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/src/action/StudentAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="150" column="15" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/course.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/open-course.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="72" column="84" selection-start-line="72" selection-start-column="84" selection-end-line="72" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,6 +1138,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,13 +1146,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-840">
           <caret line="74" column="84" selection-start-line="74" selection-start-column="84" selection-end-line="74" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret line="75" column="84" selection-start-line="75" selection-start-column="84" selection-end-line="75" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,13 +1154,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-765">
           <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/score.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,27 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1000">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1315">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/course.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1195,14 +1190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2365">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,64 +1232,164 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1600">
           <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/src/action/LoginAction.java">
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/manager.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2300">
-          <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1876">
+          <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sqltest/src/entity/Administrator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="394">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sqltest/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/login1.jsp" />
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/login1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="900">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/teacher/score.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="210" column="18" selection-start-line="210" selection-start-column="18" selection-end-line="210" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/student/course.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="217" column="9" selection-start-line="217" selection-start-column="9" selection-end-line="217" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/src/action/StudentAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4550">
+          <caret line="194" column="35" selection-start-line="194" selection-start-column="35" selection-end-line="194" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/open-course.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/src/action/TeacherAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="114" column="65" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1463563083470" expanded="true" signature="1552:1699" placeholder="SELECT * FRO... O" />
+            <marker date="1463563083470" expanded="true" signature="1622:1698" placeholder="SELECT o_id O" />
+            <marker date="1463563083470" expanded="true" signature="2897:2981" placeholder="SELECT * FRO... S" />
+            <marker date="1463563083470" expanded="true" signature="2930:2968" placeholder="SELECT SO.s_... SO" />
+            <marker date="1463563083470" expanded="true" signature="3724:3755" placeholder="SELECT * FRO... SO" />
+            <marker date="1463563083470" expanded="true" signature="5510:5579" placeholder="SELECT * FRO... SO" />
+            <marker date="1463563083470" expanded="true" signature="6193:6262" placeholder="SELECT * FRO... SO" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="130" column="91" selection-start-line="130" selection-start-column="91" selection-end-line="130" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/src/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/student1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/teacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqltest/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sqltest/src/action/ManagerAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4575">
-          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1463314879925" expanded="true" signature="4189:4204" placeholder="SELECT * FRO... S" />
-            <marker date="1463314879925" expanded="true" signature="5988:6003" placeholder="SELECT * FRO... T" />
-            <marker date="1463314879925" expanded="true" signature="7793:7807" placeholder="SELECT * FRO... M" />
-            <marker date="1463314879925" expanded="true" signature="7793:7808" placeholder="SELECT * FRO... A" />
-            <marker date="1463314879925" expanded="true" signature="9614:9629" placeholder="SELECT * FRO... C" />
-            <marker date="1463314879925" expanded="true" signature="11434:11449" placeholder="SELECT * FRO... O" />
-            <marker date="1463314879925" expanded="true" signature="13665:13681" placeholder="SELECT * FRO... SO" />
+            <marker date="1463560933335" expanded="true" signature="4189:4204" placeholder="SELECT * FRO... S" />
+            <marker date="1463560933335" expanded="true" signature="6099:6114" placeholder="SELECT * FRO... T" />
+            <marker date="1463560933335" expanded="true" signature="7904:7919" placeholder="SELECT * FRO... A" />
+            <marker date="1463560933335" expanded="true" signature="9725:9740" placeholder="SELECT * FRO... C" />
+            <marker date="1463560933335" expanded="true" signature="11545:11560" placeholder="SELECT * FRO... O" />
+            <marker date="1463560933335" expanded="true" signature="13776:13792" placeholder="SELECT * FRO... SO" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqltest/web/WEB-INF/content/admin/manager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="128" column="12" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>

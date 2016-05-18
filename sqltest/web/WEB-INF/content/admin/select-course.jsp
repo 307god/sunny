@@ -1,35 +1,58 @@
+<!DOCTYPE html>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <%@ page import="information.Information" %>
 <%@ page import="entity.Administrator" %>
 <%@ page import="entity.SelectCourse" %>
 <%@ page import="java.util.List" %>
-
-<%--
-  Created by IntelliJ IDEA.
-  User: Jason Song(wolfogre.com)
-  Date: 2016/4/13
-  Time: 22:47
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-	<meta charset="utf-8">
+<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	
+    管理员页面
 
-	<!-- BootStrap CSS -->
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/BootStrap/css/bootstrap.min.css"/>
-	<!--DataTables CSS -->
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/DataTables/css/jquery.dataTables.css"/>
-	<!-- jQuery -->
-	<script type="text/javascript" charset="utf8" src="${pageContext.request.contextPath}/DataTables/js/jquery.js"></script>
-	<!-- DataTables -->
-	<script type="text/javascript" charset="utf8" src="${pageContext.request.contextPath}/DataTables/js/jquery.dataTables.js"></script>
+</title>
+    
 
-	<title>管理员页面</title>
-</head>
-<script type="text/javascript" class="init">
+    <link href="http://cj.shu.edu.cn/Content/default/jquery-treeview-css/jquery.treeview.css"
+        rel="stylesheet" type="text/css" />
+   
+    <link href="http://cj.shu.edu.cn/Content/default/jquery-ui-1.9.1.custom-css/jquery-ui-1.9.1.custom.css"
+        rel="stylesheet" type="text/css" />
+    <link href="http://cj.shu.edu.cn/Content/default/StyleBase.css" rel="stylesheet"
+        type="text/css" />
+    
+    
+    <script src="http://cj.shu.edu.cn/Scripts/datePicker/WdatePicker.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/jquery-1.8.2.js" type="text/javascript"></script>
+
+    
+    
+
+    <script src="http://cj.shu.edu.cn/Scripts/jquery-ui-1.9.1.custom.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/jsCommon.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/leftmenu.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/jquery.form.js" type="text/javascript"></script>
+    <script src="http://cj.shu.edu.cn/Scripts/jquery-treeview-js/jquery.treeview.js" type="text/javascript"></script>
+
+    <style type="text/css">
+    @media print
+    {
+        .noprint
+        {
+            display: none;
+        }
+        .PageNext
+        {
+            page-break-after: always;
+        }
+    }
+    </style>
+	
+	<script type="text/javascript" class="init">
 	$(document).ready(function() {
 		$('#dataTable').DataTable({
 			language: {
@@ -59,6 +82,12 @@
 		});
 	});
 </script>
+
+    
+</head>
+
+
+
 <body>
 <%
 	Administrator master = (Administrator)session.getAttribute("master");
@@ -67,25 +96,87 @@
 		return;
 	}
 %>
-<div class="page-header" >
-	<div>
-		<h2>&nbsp;&nbsp;&nbsp;&nbsp;管理员:<%=master.getA_name()%>
-			<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工号:<%=master.getA_id()%></small>
-			<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%=Information.getCopyRight()%></small>
-		</h2>
-	</div>
+    <div>
+        <div class="master_banner noprint">
+            
+            <div class="master_banner_validspace">
+                <a id="aindex" class="a_index">首 页</a> 
+                <span class="span_currenttitle">
+                    
+
+                </span>
+                <span class="span_currentUserInfo">
+                    欢迎 <%=master.getA_name()%>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<a href="${pageContext.request.contextPath}/login.action">安全退出</a>
+                </span>
+            </div>
+        </div>
+        <div class="master_bannerborder noprint">
+        </div>
+        <div class="master_maindiv">
+            <table class="master_maintable">
+                <tr>
+                    <td class="maintable_leftmenu noprint" id="">
+                        <div id="leftmenu_information" style="width:200px;">
+                            
+                        </div>
+                        <!--  LEFT MENU  -->
+                        <div id="leftMenu">
+                            
+                            
+
+<div id="leftmenu_Accordion">
+
+
+
+    <div class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" id="0">
+        <a href="#">管理员信息</a>
+    </div>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" style="padding: 1px 0px 0px 2px;">
+        <div style="line-height: 23px;">
+            工号：<%=master.getA_id()%>
+        </div>
+        <div style="line-height: 23px;">
+            姓名：<%=master.getA_name()%>
+        </div>
+        
+    </div>
+
+    <div class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" id="98">
+        <a href="#">常用功能</a>
+    </div>
+    <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active">
+        <ul class="ul_left_menu_basicset">
+            
+            
+                <li role="presentation" class="active"><a href="index.action">基本信息</a></li>
+				
+				<li role="presentation"><a href="term.action">学期管理</a></li>
+				
+				<li role="presentation"><a href="student.action">学生管理</a></li>
+				
+				<li role="presentation"><a href="teacher.action">教师管理</a></li>
+				
+				<li role="presentation"><a href="manager.action">管理员管理</a></li>
+				
+				<li role="presentation"><a href="course.action">课程管理</a></li>
+				
+				<li role="presentation"><a href="open-course.action">开课管理</a></li>
+				
+				<li role="presentation"><a href="select-course.action">选课管理</a></li>
+            
+
+        </ul>
+    </div>
+
 </div>
-<ul class="nav nav-tabs">
-	<li role="presentation"><a href="index.action">基本信息</a></li>
-	<li role="presentation"><a href="term.action">学期管理</a></li>
-	<li role="presentation"><a href="student.action">学生管理</a></li>
-	<li role="presentation"><a href="teacher.action">教师管理</a></li>
-	<li role="presentation"><a href="manager.action">管理员管理</a></li>
-	<li role="presentation"><a href="course.action">课程管理</a></li>
-	<li role="presentation"><a href="open-course.action">开课管理</a></li>
-	<li role="presentation" class="active"><a href="select-course.action">选课管理</a></li>
-	<li role="presentation"><a href="${pageContext.request.contextPath}/login.action">退出登录</a></li>
-</ul>
+                        </div>
+                    </td>
+                    <td class="maintable_content">
+                        <!--  MAIN  -->
+                        
+                        <div class="div_master_content">
+                            
+
 <%
 	if(request.getAttribute("error") != null){
 %>
@@ -128,5 +219,13 @@
 		</tr>
 	</table>
 </form>
+
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 </html>
